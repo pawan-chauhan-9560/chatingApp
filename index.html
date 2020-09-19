@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RoboTalk</title>
+
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <nav>
+      <img src="/logo.png" id="logo" alt="logo" />
+      <p id="txt">RoboTalk</p>
+      <div class="container">
+        <!-- <div class="msg left"></div>
+
+        <div class="msg right"></div> -->
+      </div>
+      <div class="send">
+        <form action="#" id="sendContainer">
+          <input type="text" name="msgInp" id="msgInp" />
+          <div class="wrap">
+            <button type="submit" class="button">Send</button>
+          </div>
+          <!-- <button type="submit" id="sbt">Send</button> -->
+        </form>
+      </div>
+    </nav>
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script defer src="/js/client.js"></script>
+  </body>
+</html>
